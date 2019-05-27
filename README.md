@@ -1,2 +1,2 @@
-# gr12-tictactoe
+# Tictactoe-project
 Java GUI of tictactoe program

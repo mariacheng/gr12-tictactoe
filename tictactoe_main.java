@@ -152,73 +152,73 @@ public class tictac implements ActionListener{
     theframe = new JFrame("Tic Tac Toe");
     theframe.setSize(200, 275);
     theframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    
+
     thepanel = new JPanel();
     thepanel.setLayout(null);
     theframe.setContentPane(thepanel);
     thepanel.setBackground(Color.GREEN);
-    
+
     reset = new JButton("Reset");
     reset.setSize(100, 50);
     reset.setLocation(0, 175);
     reset.addActionListener(this);
     thepanel.add(reset);
-    
-    
+
+
     but1 = new JButton("");
     but1.setSize(50,50);
     but1.setLocation(0,0);
     but1.addActionListener(this);
     thepanel.add(but1);
-    
+
     but2 = new JButton("");
     but2.setSize(50,50);
     but2.setLocation(50,0);
     but2.addActionListener(this);
     thepanel.add(but2);
-    
+
     but3 = new JButton("");
     but3.setSize(50,50);
     but3.setLocation(100,0);
     but3.addActionListener(this);
     thepanel.add(but3);
-    
+
     but4 = new JButton("");
     but4.setSize(50,50);
     but4.setLocation(0,50);
     but4.addActionListener(this);
     thepanel.add(but4);
-    
+
     but5 = new JButton("");
     but5.setSize(50,50);
     but5.setLocation(50,50);
     but5.addActionListener(this);
     thepanel.add(but5);
-    
+
     but6 = new JButton("");
     but6.setSize(50,50);
     but6.setLocation(100,50);
     but6.addActionListener(this);
     thepanel.add(but6);
-    
+
     but7 = new JButton("");
     but7.setSize(50,50);
     but7.setLocation(0,100);
     but7.addActionListener(this);
     thepanel.add(but7);
-    
+
     but8 = new JButton("");
     but8.setSize(50,50);
     but8.setLocation(50,100);
     but8.addActionListener(this);
     thepanel.add(but8);
-    
+
     but9 = new JButton("");
     but9.setSize(50,50);
     but9.setLocation(100,100);
     but9.addActionListener(this);
     thepanel.add(but9);
-    
+
     theframe.setVisible(true);
   }
   public static void main(String[]args){
